@@ -1,13 +1,13 @@
-# Image Structure Extractor
+# Structured Image Extraction with Vercel AI SDK
 
-This project uses the Vercel AI SDK to extract structured information from images. It leverages the experimental_useObject hook and streamObject function to generate structured data based on a Zod schema and stream it to the client.
+This project uses the Vercel AI SDK to extract structured information from images. It uses the `experimental_useObject` hook and `streamObject` function to generate structured data based on a Zod schema.
 
 ## Features
 
 - Extract structured data from images using AI
 - Real-time streaming of extracted data to the client
 - Customizable data schema using Zod
-- Built with Next.js and the Vercel AI SDK
+- Built with [ Next.js ](https://nextjs.org) and the [ Vercel AI SDK ](https://sdk.vercel.ai)
 
 ## Prerequisites
 
@@ -64,7 +64,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 To modify the structure of the extracted data, edit the Zod schema in `lib/schema.ts`.
 
-## Acknowledgments
+## More Info
 
 - [Vercel AI SDK](https://sdk.vercel.ai)
 - [OpenAI](https://openai.com/)
