@@ -1,6 +1,6 @@
 # Structured Image Extraction with Vercel AI SDK
 
-This project uses the Vercel AI SDK to extract structured information from images. It uses the `experimental_useObject` hook and `streamObject` function to generate structured data based on a Zod schema.
+This project uses the Vercel AI SDK to extract structured information from images. It uses the [ `experimental_useObject` ](https://sdk.vercel.ai/docs/reference/ai-sdk-ui/use-object) hook and [ `streamObject` ](https://sdk.vercel.ai/docs/reference/ai-sdk-core/stream-object) function to generate structured data based on a Zod schema.
 
 ## Features
 
